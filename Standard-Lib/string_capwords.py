@@ -7,3 +7,9 @@ print(s)
 print(string.capwords(s))
 # Capitalize the 1st word 
 print(s.capitalize())
+# Split, cap and join
+space = ' '
+list = []
+for ele in s.split():
+    list.append(ele.capitalize())
+print(space.join(list))
