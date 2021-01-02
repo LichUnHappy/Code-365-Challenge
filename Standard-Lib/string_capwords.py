@@ -13,3 +13,5 @@ list = []
 for ele in s.split():
     list.append(ele.capitalize())
 print(space.join(list))
+# List grammar sugar
+print(space.join([item.capitalize() for item in s.split()]))
