@@ -16,3 +16,4 @@ BugStatus = enum.Enum(
 print('All members:')
 for status in BugStatus:
     print('{:15} = {}'.format(status.name, status.value))
+    print(f"{status.name}={status.value}")
