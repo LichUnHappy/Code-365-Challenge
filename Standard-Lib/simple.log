@@ -1,0 +1,9 @@
+2020-12-17 11:35:32,257 - simple_example - WARNING - warning message
+2020-12-17 11:35:32,257 - simple_example - ERROR - error message
+2020-12-17 11:35:32,257 - simple_example - CRITICAL - critical sss
+2020-12-17 11:36:15,495 - simple_example - WARNING - warning message
+2020-12-17 11:36:15,495 - simple_example - ERROR - error message
+2020-12-17 11:36:15,495 - simple_example - CRITICAL - critical sss
+2020-12-17 21:32:32,553 - simple_example - WARNING - warning message
+2020-12-17 21:32:32,553 - simple_example - ERROR - error message
+2020-12-17 21:32:32,553 - simple_example - CRITICAL - critical s0s

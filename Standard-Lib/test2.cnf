@@ -1,0 +1,13 @@
+[DEFAULT]
+serveraliveinterval = 10
+compression = yes
+compressionlevel = 3
+forwardx11 = yes
+
+[bitsbite]
+user = bullgo
+
+[topSecret]
+port = 404
+forwardx11 = no
+

@@ -1,0 +1,14 @@
+[34m[D 2020-12-17 21:44:55](B[m [debug] call: unregister(); fd was no longer in socket_map (<pyftpdlib.ioloop.Epoll (fds=0, tasks=0) at 0x7f4b0eb8bfd0>)
+[32m[I 2020-12-17 21:45:03](B[m concurrency model: async
+[32m[I 2020-12-17 21:45:03](B[m masquerade (NAT) address: None
+[32m[I 2020-12-17 21:45:03](B[m passive ports: 2000->2332
+[34m[D 2020-12-17 21:45:03](B[m poller: 'pyftpdlib.ioloop.Epoll'
+[34m[D 2020-12-17 21:45:03](B[m authorizer: 'pyftpdlib.authorizers.DummyAuthorizer'
+[34m[D 2020-12-17 21:45:03](B[m use sendfile(2): True
+[34m[D 2020-12-17 21:45:03](B[m handler: 'pyftpdlib.handlers.type'
+[34m[D 2020-12-17 21:45:03](B[m max connections: 150
+[34m[D 2020-12-17 21:45:03](B[m max connections per ip: 15
+[34m[D 2020-12-17 21:45:03](B[m timeout: 300
+[34m[D 2020-12-17 21:45:03](B[m banner: 'pyftpdlib 1.5.6 ready.'
+[34m[D 2020-12-17 21:45:03](B[m max login attempts: 3
+[32m[I 2020-12-17 21:45:03](B[m >>> starting FTP server on 0.0.0.0:21, pid=1088501 <<<
