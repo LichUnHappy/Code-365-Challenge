@@ -261,4 +261,29 @@ class TreeNode:
         return cuurent
 
     def spliceOut(self):
-        pass
+        # case 1 -> leaf node
+        if self.isLeaf():
+            if self.isLeftChild():
+                self.parent.leftChild = None
+            else:
+                self.parent.rightChild = None
+        
+        # case 2 -> have child
+        elif self.hasAnyChildren():
+            if self.hasLeftChild():
+                # jump and heritage top side
+                if self.isLeftChild():
+                    self.parent.leftChild = self.leftChild
+                else:
+                    self.parent.rightChild = self.leftChild
+            # jump and heritage down side
+            self.leftChild.parent = self.parent
+
+        # case 3 -> have 2 children    
+        else:
+            if self.isLeftChild():
+                self.parent.leftChild = self.rightChild
+            else:
+                self.parent.rightChild = self.rightChild
+            self.rightChild.parent = self.parent
+            
