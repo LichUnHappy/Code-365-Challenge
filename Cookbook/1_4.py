@@ -27,5 +27,5 @@ import heapq
 # print(heapq.heappop(heap))
 # print(heap)
 
-sorted(items)[:N]
-sorted(items)[-N:]
+# sorted(items)[:N]
+# sorted(items)[-N:]
